@@ -105,7 +105,7 @@ function HomePage(Props) {
 
         <article className="Projekt">
           <div className="img-container">
-            <img className="Projekt-img" src="/klarna-checkout.png" alt="Klarna checkout" />
+            <img className="Projekt-img" src="/Screenshot Capture - 2023-04-18 - 01-39-20.png" alt="Klarna checkout" />
             <div className="img-overlay"></div>
           </div>
           <div className="Projekt-text-container">
