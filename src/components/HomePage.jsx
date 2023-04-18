@@ -37,13 +37,13 @@ function HomePage(Props) {
         </div>
         <div>
           <h1>Hej, jag är Per-Olof, en Fullstack-utvecklare.</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ab dolore repellendus eos, odio a praesentium quo aliquam non quia minima sint quisquam error optio quae libero quaerat, unde quis recusandae nulla repudiandae iure omnis. Sapiente amet adipisci odio. Magni earum et commodi ab accusantium perferendis repudiandae ipsam ullam eius?</p>
+          <p>Jag är en fullstack utvecklare med en passion för att skapa effektiva och användarvänliga program.Mitt mål är att skapa program som förbättrar människors liv på ett meningsfullt sätt. Jag tror på att bygga mjukvara som är robust, skalbar och lättskött.</p>
         </div>
       </header>
       
       <section className="Work" id="Kompetens">
         <h2 className="Work-title">Kompetens</h2>
-        <p className="Work-subtitle">Tekniker jag har lärt mig.</p>
+        <p className="Work-subtitle"></p>
       <div className="Chip-wrapper">
         <div className="chip">React</div>
         <div className="chip">Mongo DB</div>
@@ -67,7 +67,7 @@ function HomePage(Props) {
           </div>
           <div className="Projekt-text-container">
             <h3 className="Projekt-text-title">Text To Speech</h3>
-            <p className="Projekt-text-subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatibus accusamus quos quas labore minus cumque, nesciunt inventore obcaecati magni.</p>
+            <p className="Projekt-text-subtitle">Text to Speech (TTS) app är en programvara som kan konvertera skriven text till tal. Användaren skriver in texten som sedan omvandlas till en talad version</p>
             <Link to="/text-to-speech">
             <button>Gå till appen</button>
             </Link>
@@ -82,7 +82,7 @@ function HomePage(Props) {
           </div>
           <div className="Projekt-text-container">
             <h3 className="Projekt-text-title">Spotify Clone</h3>
-            <p className="Projekt-text-subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatibus accusamus quos quas labore minus cumque, nesciunt inventore obcaecati magni.</p>
+            <p className="Projekt-text-subtitle">Spotify clone en musikströmningstjänst. Appen låter användare spela upp musik, skapa spellistor och följa artister. Det kan också ha funktioner som rekommenderade spellistor baserade på användarens musiksmak och en sökfunktion för att hitta specifika låtar eller artister.</p>
             <a href="https://visionary-cranachan-4bedbd.netlify.app/">
             <button>Gå till appen</button>
             </a>
@@ -96,7 +96,7 @@ function HomePage(Props) {
           </div>
           <div className="Projekt-text-container">
             <h3 className="Projekt-text-title">Kanban Board</h3>
-            <p className="Projekt-text-subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatibus accusamus quos quas labore minus cumque, nesciunt inventore obcaecati magni.</p>
+            <p className="Projekt-text-subtitle">En Kanban-board är en visuell arbetsplaneringsmetod som används för att hantera och övervaka arbetsuppgifter. Den består av en virtuell tavla med olika kolumner som representerar olika faser i en arbetsprocess. Uppgifterna flyttas från en kolumn till en annan beroende på vilken fas de befinner sig i, vilket ger en tydlig översikt över processen och vad som måste göras.</p>
             <a href="https://flourishing-faun-9bc059.netlify.app/">
             <button>Gå till appen</button>
             </a>
@@ -110,7 +110,7 @@ function HomePage(Props) {
           </div>
           <div className="Projekt-text-container">
             <h3 className="Projekt-text-title">Klarna Checkout</h3>
-            <p className="Projekt-text-subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatibus accusamus quos quas labore minus cumque, nesciunt inventore obcaecati magni.</p>
+            <p className="Projekt-text-subtitle">Klarna checkout är en betalningslösning som gör det enkelt för kunder att betala för sina onlineköp. Den erbjuder olika betalningsalternativ, inklusive direktbetalning, faktura, och delbetalning. Kunderna kan genomföra sina köp med enkel inloggning och en smidig betalningsprocess som minimerar avbrott och förbättrar köpupplevelsen.</p>
             <a href="https://klarna-poh-z5es.onrender.com/">
             <button>Gå till appen</button>
             </a>

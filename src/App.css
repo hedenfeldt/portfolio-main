@@ -17,6 +17,7 @@ nav {
   border-bottom: solid 1px gray;
   background-color: black;
 }
+
 nav button {
   background: transparent;
   border: none;
@@ -146,7 +147,9 @@ nav button {
 
 footer {
   background-color: black;
-  display: 
+}
+.Foot-container {
+  display: inline;
 }
 .Foot-title {
   text-align: center;
@@ -154,7 +157,7 @@ footer {
   line-height: 40px;
   font-weight: 700;
   margin-bottom: 12px;
-  display:block
+
 }
 
 .Foot-subtitle {
@@ -162,5 +165,4 @@ footer {
   max-width: 1000px;
   text-align: center;
   margin: auto;
-  display:block
 }
