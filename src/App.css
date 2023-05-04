@@ -61,7 +61,9 @@ nav button {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-
+.Work{
+  padding-top: 80px;
+}
 
 .Work-title {
   text-align: center;
@@ -94,6 +96,7 @@ nav button {
 }
 
 .Projekt-container {
+  padding-top: 80px;
   padding: o 20px;
 }
 
