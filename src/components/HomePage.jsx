@@ -60,6 +60,7 @@ function HomePage(Props) {
       </section>
 
       <section className="Projekt-container" id="Projekt">
+        <h3 className="Work-title">Projekt</h3>
         <article className="Projekt">
           <div className="img-container">
             <img className="Projekt-img" src="/Screenshot Capture - 2023-04-18 - 01-45-41.png" alt="text to speech" />
