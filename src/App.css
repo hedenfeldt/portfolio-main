@@ -154,6 +154,26 @@ nav button {
   color: white;
 }
 
+.Chip-wrapper-projekt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  position: relative;
+  left:300px
+}
+.chip-projekt{
+  border-radius: 9999px;
+  padding: 4px 12px;
+  font-size: 14px;
+  border: 1px solid rgb(38, 255, 14);
+  color: #fff;
+  position: relative;
+  
+}
+
 footer {
   display: flex;
   justify-content: space-evenly;

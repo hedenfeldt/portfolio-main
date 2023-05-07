@@ -72,7 +72,11 @@ function HomePage(Props) {
             <Link to="/text-to-speech">
             <button>Gå till appen</button>
             </Link>
-            
+            <div className="Chip-wrapper-projekt">
+              <div className="chip-projekt">React</div>
+              <div className="chip-projekt">Javascript</div>
+              <div className="chip-projekt">Css</div>
+            </div>
           </div>
         </article>
 
@@ -87,6 +91,12 @@ function HomePage(Props) {
             <a href="https://visionary-cranachan-4bedbd.netlify.app/">
             <button>Gå till appen</button>
             </a>
+            <div className="Chip-wrapper-projekt">
+              <div className="chip-projekt">React</div>
+              <div className="chip-projekt">Javascript</div>
+              <div className="chip-projekt">Yarn</div>
+              <div className="chip-projekt">Spotify API</div>
+            </div>
           </div>
         </article>
 
@@ -101,6 +111,11 @@ function HomePage(Props) {
             <a href="https://flourishing-faun-9bc059.netlify.app/">
             <button>Gå till appen</button>
             </a>
+            <div className="Chip-wrapper-projekt">
+              <div className="chip-projekt">React</div>
+              <div className="chip-projekt">Javascript</div>
+              <div className="chip-projekt">Sass</div>
+            </div>
           </div>
         </article>
 
@@ -115,6 +130,10 @@ function HomePage(Props) {
             <a href="https://klarna-poh-z5es.onrender.com/">
             <button>Gå till appen</button>
             </a>
+            <div className="Chip-wrapper-projekt">
+              <div className="chip-projekt">Javascript</div>
+              <div className="chip-projekt">Klarna API</div>
+            </div>
           </div>
         </article>
 
@@ -124,16 +143,16 @@ function HomePage(Props) {
       <footer id="Kontakta-mig">
         
           <div className="Foot-container">
-          <h3 className="Foot-title">Adress</h3>
+          <h3 className="Foot-title">Adress:</h3>
           <p className="Foot-subtitle">Sweden, Hudiksvall</p>
           </div>
           <div className="Foot-container">
-          <h3 className="Foot-title">Mail</h3>
+          <h3 className="Foot-title">Mail:</h3>
             
           <p className="Foot-subtitle">Hedenfeldt@outlook.com</p>
           </div>
           <div className="Foot-container">
-          <h3 className="Foot-title">Phone</h3>
+          <h3 className="Foot-title">Phone:</h3>
           <p className="Foot-subtitle">+46 72 21 27 420</p>
         </div>
         
