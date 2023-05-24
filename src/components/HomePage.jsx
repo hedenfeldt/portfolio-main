@@ -11,9 +11,6 @@ function HomePage(Props) {
           <a href="#Hem">
             <button>Hem</button>
           </a>
-          <a href="#Kompetens">
-            <button>Kompetens</button>
-          </a>
           <a href="#Projekt">
             <button>Projekt</button>
           </a>
@@ -30,19 +27,41 @@ function HomePage(Props) {
           </a>
         </div>
       </nav>
-
-      <header className="hero" id="Hem">
+          <header className="about_container">
+            <div className="about_left" id="hero-img">
+              <img src="/IMG_3661.jpg" alt="hero img" />
+            </div>
+            <div className="about_right">
+              <h3>Per-Olof Hedenfeldt</h3>
+              <p>Jag är en fullstack utvecklare med en passion för att skapa effektiva och användarvänliga program. <br /> Mitt mål är att skapa program som förbättrar människors liv på ett meningsfullt sätt. <br /> Jag tror på att bygga mjukvara som är robust, skalbar och lättskött.</p>
+              
+                <section className="Work" id="Kompetens">
+                  <div className="Chip-wrapper">
+                    <div className="chip">React</div>
+                    <div className="chip">Mongo DB</div>
+                    <div className="chip">Express</div>
+                    <div className="chip">NPM</div>
+                    <div className="chip">Node.js</div>
+                    <div className="chip">Typescript</div>
+                    <div className="chip">CSS</div>
+                    <div className="chip">Sass</div>
+                    <div className="chip">Javascript</div>
+                    <div className="chip">HTML</div>
+                  </div>
+              </section>
+              <div>Phone: +46 72 21 27 420</div>
+              <div>Email: Hedenfeldt@outlook.com</div>
+            </div>
+            
+          </header>
+      {/* <header className="hero" id="Hem">
         <div className="hero-img">
           <img src="/IMG_3661.jpg" alt="HeroPicture" />
         </div>
         <div>
           <h1>Hej, jag är Per-Olof, en Fullstack-utvecklare.</h1>
           <p>Jag är en fullstack utvecklare med en passion för att skapa effektiva och användarvänliga program.Mitt mål är att skapa program som förbättrar människors liv på ett meningsfullt sätt. Jag tror på att bygga mjukvara som är robust, skalbar och lättskött.</p>
-        </div>
-      </header>
-      
-      <section className="Work" id="Kompetens">
-        <h2 className="Work-title">Kompetens</h2>
+          <section className="Work" id="Kompetens">
         <p className="Work-subtitle"></p>
       <div className="Chip-wrapper">
         <div className="chip">React</div>
@@ -58,6 +77,10 @@ function HomePage(Props) {
         <div className="chip">Javascript</div>
       </div>
       </section>
+        </div>
+      </header> */}
+      
+      
 
       <section className="Projekt-container" id="Projekt">
         <h3 className="Work-title">Projekt</h3>
