@@ -166,9 +166,9 @@ nav button {
   transform: transform 150ms;
 }
 
-.Projekt:hover .img-container {
+/* .Projekt:hover .img-container {
   transform: scale(1.05);
-}
+} */
 
 .img-overlay {
   position: absolute;
